@@ -60,14 +60,17 @@ Ela junta, num só sistema:
 
 Python · Streamlit · TypeScript (Deno) · Supabase (PostgreSQL, Edge Functions, Storage, Vault, pgvector, pg_cron) · Google Gemini · Meta Graph API · WhatsApp Business Cloud API · Telegram Bot API
 
-## Como rodar (resumo)
+## Escopo da publicação e instalação
 
-1. Crie um projeto no Supabase e aplique os arquivos de `supabase/migrations/` em ordem.
-2. Publique as funções de `supabase/functions/` e cadastre os Secrets (chaves da Meta, Gemini, parceiros).
-3. No `painel/`, copie `.streamlit/secrets.toml.example` para `.streamlit/secrets.toml`, preencha as suas chaves e copie `empresas.example.json` para `empresas.json`.
-4. `pip install -r painel/requirements.txt` e `streamlit run painel/app.py`.
+Este é um recorte público para apresentação e portfólio. Componentes e configurações operacionais foram omitidos intencionalmente para preservar a propriedade intelectual e informações internas. O conteúdo publicado não constitui uma distribuição completa, pronta para implantação.
 
-Nenhuma chave, senha, dado de cliente ou regra comercial interna está neste repositório. Valores como `SEU-PROJETO`, `SEU_PHONE_NUMBER_ID` e `SEU_WABA_ID` são marcadores a substituir.
+As migrações disponíveis não abrangem todos os módulos referenciados pelo agente. Aplicá-las, por si só, não reproduz o ambiente de produção. Integrações com parceiros dependem de credenciamento próprio, configurações privadas e componentes adicionais.
+
+Os arquivos `.streamlit/secrets.toml.example` e `empresas.example.json` são modelos de configuração, sem autorização para acessar o ambiente da Cred Finance.
+
+Para uma implantação autorizada, é necessário obter a distribuição completa, revisar as dependências e configurar credenciais próprias em um ambiente isolado. O painel administrativo atual não deve ser oferecido diretamente a empresas clientes como portal de autosserviço: esse uso exige autenticação individual e autorização por empresa.
+
+Consulte as [orientações de segurança](SECURITY.md) e a [licença](LICENSE). A licença define as condições de uso; a publicação pública permite visualizar e copiar tecnicamente os arquivos disponibilizados.
 
 ## Autor
 
