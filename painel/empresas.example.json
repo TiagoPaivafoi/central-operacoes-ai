@@ -1,0 +1,16 @@
+{
+    "Cred Finance": {
+        "nicho": "Crédito Consciente e Finanças",
+        "cores": "Azul-marinho (#003366), Verde Prosperidade (#00C853) e Branco",
+        "briefing": "Empresa especializada em Consignado CLT, Saque-Aniversário FGTS, Portabilidade e Financiamentos. Foco em transparência, aprovação rápida e envio via PIX. Estilo clean, seguro e humano.",
+        "n8n_webhook": "https://SEU-N8N.app.n8n.cloud/webhook/SEU-ID",
+        "logo_path": ""
+    },
+    "TIM Brasil": {
+        "nicho": "Telecomunicações e Conectividade 5G",
+        "cores": "Azul TIM (#003399), Cyan Neon (#00F0FF) e Branco",
+        "briefing": "Líder em cobertura 5G, focada em planos controle, roaming internacional e redes sociais ilimitadas com tom agressivo, jovem e futurista.",
+        "n8n_webhook": "https://seu-n8n.com/webhook/tim-brasil",
+        "logo_path": ""
+    }
+}

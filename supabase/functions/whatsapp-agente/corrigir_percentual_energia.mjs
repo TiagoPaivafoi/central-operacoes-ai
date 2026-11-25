@@ -1,0 +1,1 @@
+export function retirarPercentualEnergia(resposta){if(typeof resposta!=='string'||!/[0-9]+(?:[.,][0-9]+)?\s*%/.test(resposta))return resposta;return [...new Set(resposta.split(/(?<=[.!?])\s+/).map(t=>/[0-9]+(?:[.,][0-9]+)?\s*%/.test(t)?'O desconto varia conforme as condições da proposta para sua unidade.':t))].join(' ').trim();}

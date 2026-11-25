@@ -1,0 +1,45 @@
+# ---- Segredos: NUNCA enviar ao GitHub ----
+secrets.toml
+**/.streamlit/secrets.toml
+*.bak
+.env
+.env.*
+credentials.json
+client_secret*.json
+token*.json
+*.pem
+*.key
+supabase/.temp/
+
+# ---- Logs e relatórios (podem conter dados de clientes) ----
+*.log
+*_relatorio.txt
+
+# ---- Dados de clientes e campanhas (ficam no Supabase) ----
+empresas.json
+logos/
+posts_gerados_*.txt
+posts_*.txt
+campanhas/
+Base agente WhatsApp/
+**/interno/
+
+# ---- Arquivos antigos e de teste local ----
+app_antigo*.py
+*_antigo*.py
+
+# ---- Lixo do Python / Node ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+
+# ---- Configurações locais de ferramentas ----
+.claude/settings.local.json
+.cursor/
+
+# ---- Sistema ----
+Thumbs.db
+desktop.ini
+.DS_Store
